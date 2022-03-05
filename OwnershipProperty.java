@@ -8,7 +8,7 @@ public class OwnershipProperty implements CanOwnUnit { // pavlenko 1
 
     public OwnershipProperty(CanOwnUnit owner) {
         if(owner == null) {
-            throw new NullPointerException();
+            throw new NullPointerException(); // pavlenko 3
         }
         _owner = owner;
     }
