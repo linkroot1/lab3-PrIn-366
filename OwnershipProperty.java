@@ -4,7 +4,7 @@ package Model.ownership;
 public class OwnershipProperty implements CanOwnUnit {
 
     // ---------------------- Владелец свойства ---------------------
-    private final CanOwnUnit _owner;
+    private final CanOwnUnit _owner; // pavlenko 2
 
     public OwnershipProperty(CanOwnUnit owner) {
         if(owner == null) {
