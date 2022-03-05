@@ -10,7 +10,7 @@ public class OwnershipProperty implements CanOwnUnit {
         if(owner == null) {
             throw new NullPointerException();
         }
-        _owner = owner;
+        _owner = owner; // pavlenko 5
     }
 
     // ---------------------- Юнит, которым владеем ----------------
