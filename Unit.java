@@ -37,7 +37,7 @@ public abstract class Unit {
     public boolean belongTo(CanOwnUnit ob) {
         return owner() == ob;
     }
-
+	//5 task commit chernenko
     public boolean belongTo(Class cl) {
         return owner().getClass() == cl;
     }
