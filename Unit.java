@@ -21,7 +21,7 @@ public abstract class Unit {
     protected boolean canBelongTo(CanOwnUnit owner) {
         return true;
     }
-
+	//2 commit myBranch chernenko
     void removeOwner() {
         _owner = null;
     }
