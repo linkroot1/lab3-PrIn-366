@@ -1,7 +1,7 @@
 package Model.ownership;
 
 // Свойства обладания юнитом
-public class OwnershipProperty implements CanOwnUnit {
+public class OwnershipProperty implements CanOwnUnit { // pavlenko 1
 
     // ---------------------- Владелец свойства ---------------------
     private final CanOwnUnit _owner;
